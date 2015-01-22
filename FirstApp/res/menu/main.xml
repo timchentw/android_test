@@ -2,7 +2,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.firstapp.MainActivity" >
-
+	<!-- Search, should appear as action button -->
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/i_search"
+          android:title="@string/action_search"
+          android:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
